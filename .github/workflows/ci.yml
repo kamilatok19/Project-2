@@ -20,3 +20,6 @@ jobs:
       
     - name: Show files list
       run: ls -la
+      
+    - name: Show current user
+      run: whoami
